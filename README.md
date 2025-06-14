@@ -72,11 +72,15 @@ streamlit run app.py
 Place these in `requirements.txt`:
 
 ```
-streamlit
-rembg
-pillow
-opencv-python
-matplotlib
+streamlit==1.31.1
+Pillow==10.1.0
+numpy==1.24.3
+opencv-python-headless==4.7.0.72
+rembg==2.0.50
+pooch==1.7.0
+pymatting==1.1.11
+scikit-image==0.21.0
+onnxruntime==1.15.1 
 ```
 
 ---
